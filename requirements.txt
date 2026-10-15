@@ -1,0 +1,11 @@
+# Smalti — core dependencies (everything needed to run `python main.py`).
+# Developed and tested on Python 3.11 and 3.14.
+nicegui>=3.0
+numpy>=1.24,<2.5
+scipy>=1.11
+numba>=0.66
+opencv-python-headless>=4.8
+Pillow>=10.0
+pillow-heif>=0.15
+shapely>=2.0
+svgwrite>=1.4.3

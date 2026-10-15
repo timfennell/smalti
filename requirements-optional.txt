@@ -1,0 +1,13 @@
+# Smalti — optional extras. Install with: pip install -r requirements-optional.txt
+# None of these are needed to run the app in a browser tab.
+
+# Native desktop window (instead of a browser tab) — what the packaged .app uses.
+pywebview>=5.0
+
+# Apple-GPU (Metal/MPS) acceleration for the optimizer's error-map step.
+# Without it Smalti runs fully on the CPU, just slower on large images.
+# (The prebuilt .app deliberately leaves torch out to stay small, so it is CPU-only.)
+torch>=2.2
+
+# Only needed to build the standalone .app yourself (./build_app.sh).
+pyinstaller>=6.0
