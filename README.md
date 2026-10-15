@@ -240,3 +240,5 @@ The example painting is in the public domain; see [`examples/README.md`](example
 ## Contributing
 
 Bug reports and pull requests are welcome — please open an [issue](https://github.com/timfennell/smalti/issues) first for anything large.
+
+I would love to see what you create with Smalti. Please share your creations online with #smaltiapp.
